@@ -1,0 +1,45 @@
+
+---
+
+# Example 1- simple one line
+https://www.google.com/:
+  enabled: true
+
+# Example 2 - dictating which analyzers to operate
+https://www.google.com/:
+  analyzers: ['dig', 'whois']
+
+# Example 3 - using the analyzer features
+https://www.google.com/:
+  enabled: true
+  analyzer_report_sets_expected:
+    - ['http_hostname_302_response', 'https_hostname_200_response']
+  analyzer_report_sets_not_expected:
+    - 'whois_exception'
+    - 'http_hostname_200_response'
+    - 'https_certificate_hostname_mismatch'
+    - 'safe_browsing_record'
+
+# Example 3 - google safe browsing hit
+https://testsafebrowsing.appspot.com/s/phishing.html:
+  enabled: true
+  analyzer_report_sets_expected:
+    - ['safe_browsing_record']
+
+# Example 5 - using the test regex features
+google.com:
+  enabled: true
+  smtp:
+    http:
+      - matches: "google"
+
+# Example 6 - putting tests and analyzers together
+http://www.google.com/:
+  analyzers: ['dig', 'http', 'https', 'https_certificate', 'smtp', 'whois']
+  analyzer_report_sets_not_expected:
+    - 'http_hostname_200_response'
+    - 'https_certificate_hostname_mismatch'
+  tests:
+    https_certificate:
+      - matches: ["California", "Google"]
+        context: 'subject'

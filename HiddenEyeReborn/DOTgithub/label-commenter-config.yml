@@ -1,0 +1,54 @@
+labels:
+  - name: invalid
+    labeled:
+      issue:
+        body: Please follow the issue templates.
+        action: close
+      pr:
+        body: Thank you @{{ pull_request.user.login }} for suggesting this. Please follow the pull request templates.
+        action: close
+    unlabeled:
+      issue:
+        body: Thank you for following the template. The repository owner or contributors will reply to you soon.
+        action: open
+  - name: StackOverflow
+    labeled:
+      issue:
+        body: |
+          This is a bug tracker and not a support forum.
+          While we'd love to be able to support every person on their projects, that would simply be infeasible. Luckily, that's what the helpful developer community over at Stack Overflow is for! Please create a question there with the "hiddeneye" tag if what you're looking for is a programming question or you need help.
+        action: close
+  - name: difficult-to-understand
+    labeled:
+      issue:
+        body: |
+            This issue is very difficult to understand.
+            While we'd love to be able to support every person on their projects, that would simply be infeasible.
+            Please fix your grammar, follow template, replace confusing words, listen to suggestions or ask someone to help you translating to English.
+        action: close
+    unlabeled:
+      issue:
+        body: Thank you for fixing, now we are able to undestand you. The repository owner or contributors will reply to you soon.
+        action: open
+  - name: wontfix
+    labeled:
+      issue:
+        body: This will not be worked on but we appreciate your contribution.
+        action: close
+    unlabeled:
+      issue:
+        body: This has become active again.
+        action: open
+  - name: duplicate
+    labeled:
+      issue:
+        body: This issue already exists. Please look for original one on your own or ask contributor to help you.
+        action: close
+  - name: good first issue
+    labeled:
+      issue:
+        body: This issue is easy for contributing. Everyone can work on this.
+  - name: enhancement
+    labeled:
+      issue:
+        body: Thank you @{{ issue.user.login }} for suggesting this.

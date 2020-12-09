@@ -1,0 +1,71 @@
+# pack-refs with: peeled fully-peeled sorted 
+0446070756e8f61c29d4c41f4adab08b3bf9d830 refs/remotes/origin/coverity_scan
+55f499c9eb6d645d7a1e7ac14931123a1f1918e2 refs/remotes/origin/master
+90c5334d299bce02377535c2b21ce3c43cc57655 refs/remotes/origin/tcpdump-3.5
+4ddb9cc55a17b6721214caa8c7eae82410f092ec refs/remotes/origin/tcpdump-3.6
+b8db677cda8a0cadebab332edc80a78462abe993 refs/remotes/origin/tcpdump-3.7
+ef600611ff58e1da717773fb8a03d90917d0e9c5 refs/remotes/origin/tcpdump-3.8
+868e4442d99266b21d67218b68aaa8b6b0966da6 refs/remotes/origin/tcpdump-3.9
+1a1cf56fab377e9ad784e3ea847975f761a77fbd refs/remotes/origin/tcpdump-4.0
+ed08d24ae8add2f8da09996576065525c2c4a69b refs/remotes/origin/tcpdump-4.1
+c6f424fb2e9726811330cb66e7887bb9dfd9d8ee refs/remotes/origin/tcpdump-4.2
+eb1cafcf5603f08f5916a205e6c205364ba85af7 refs/remotes/origin/tcpdump-4.3
+35d4cc9d923c3aeb5446c47e44c23512a93a8c02 refs/remotes/origin/tcpdump-4.4
+0dec5e28d49d48f20b890594a3f95f9ececeea59 refs/remotes/origin/tcpdump-4.5
+f35ae3d61da48225291458062b0278938076ab38 refs/remotes/origin/tcpdump-4.6
+e3af1bc260eee91de3da3b741629dcb6fed0ac2a refs/remotes/origin/tcpdump-4.7
+af974494da71f2dae8eeac40e1611db5d6a82668 refs/remotes/origin/tcpdump-4.8
+8ad79d5fffcac4496f983ef4005a3d7faef17588 refs/remotes/origin/tcpdump-4.9
+063644a4c5dad70a77814ff2208e4ff8338db49a refs/remotes/origin/update-gitignore
+30618d8d9a9bfb7202e715b66d8e30972d4e7f1e refs/remotes/origin/win32-isatty
+d50b5308c164f766e9b3fab847db128ecc808cff refs/tags/tcpdump-3.5.1
+675b7e524e7c26a3117bf44d353a3547b086f33d refs/tags/tcpdump-3.5.2
+990656e629e2fc5342866f250e84680a2ec0f108 refs/tags/tcpdump-3.6.1
+fc67b740a4940527782692cb5622f0768beee58d refs/tags/tcpdump-3.6.2
+4ddb9cc55a17b6721214caa8c7eae82410f092ec refs/tags/tcpdump-3.6.3
+19fb01819f284061bd4390e846410b95b4a27464 refs/tags/tcpdump-3.7.1
+b8db677cda8a0cadebab332edc80a78462abe993 refs/tags/tcpdump-3.7.2
+22b7f6c083c7cc1743d6800bcf092914aac90890 refs/tags/tcpdump-3.8.1
+1c14736ef7e4225f432b81211b16bda0ddf229de refs/tags/tcpdump-3.8.2
+94090dd9e667c437472a6e3a3f3ffae662f668c4 refs/tags/tcpdump-3.8.3
+a64a446313290634f2ad6b8a45b7725291f33ed5 refs/tags/tcpdump-3.9.1
+727626c419cc65eec9b7f5d4b77175279fa5a42b refs/tags/tcpdump-3.9.2
+3fb6094fb9db14f3bab8d3f3df2325397de14f9d refs/tags/tcpdump-3.9.3
+0a2d6b2d79ad4733cf66dfaae8e250834442048e refs/tags/tcpdump-3.9.5
+e1b0d876e2cc5f7d438262955a0442c921fbd331 refs/tags/tcpdump-3.9.6
+79c12aea8690bfe37c52f6c34e14870d4b54d8a8 refs/tags/tcpdump-3.9.7
+f086052e8b7fa4218cfbf812654592a9050ef7ad refs/tags/tcpdump-3.9.8
+613ebe19f586cfa46a976f2b0f4c1ead35b2cc75 refs/tags/tcpdump-4.0.0
+ab27b5dc007bcae5ff9f3e5fc3f84c10098cfb51 refs/tags/tcpdump-4.1.0
+^ae598c0f51419b57042144009a786ce68337f82b
+d387890f329290af131e27e57e78a1c3ff87345b refs/tags/tcpdump-4.1.1
+^b74b3a8df152016bbfc7144f9b273ec8b8868ee9
+11e522bb613eb51f0ffc8d27c99b06dc75047250 refs/tags/tcpdump-4.2.1
+^a5853ac56d6554bb646a0afd15183e1b4ca8ab42
+3ab5c919bf64963a14be8025921b1771a596e416 refs/tags/tcpdump-4.3.0
+^9c3e5c52c1e771aa0e4f833de56d575767e9669c
+1fee9d449dff42d7407fb95ef75388bf35761c58 refs/tags/tcpdump-4.4.0
+^624c208a6b5da63a928c08426065fe89ea68c947
+4e0ffaeaf75ced198f7344eeb6bf4a49bcea7a15 refs/tags/tcpdump-4.5.0
+a8ee2f6910ba8ad671d10aefc36402404bf67b80 refs/tags/tcpdump-4.5.1
+^73262f4d5247e32bc740e38a8e23f5b5abb75e7a
+8d472bc388271d281cda508301099bccf56c557c refs/tags/tcpdump-4.6.0
+8d472bc388271d281cda508301099bccf56c557c refs/tags/tcpdump-4.6.0-bp
+8233fdf00731a7bd67eb418f5a054e327fea6457 refs/tags/tcpdump-4.6.1
+^25fdee768b9b6108a1f309511becd56daf3e17f3
+3f5693a2bb783b1caa2a308e64ee34d167f36f05 refs/tags/tcpdump-4.7.0-bp
+71fc5ed1b985016635b87a94f8d905dc585e3c4a refs/tags/tcpdump-4.7.2
+^333f7be4ebf44e19bbb9c4ec36d07fb91cb272ec
+4f824b276e19375dfd63168542ccefa0eb6b1453 refs/tags/tcpdump-4.7.3
+001fad3a25d2a051c84bdbeeacf9974dfa0a8e2e refs/tags/tcpdump-4.7.4
+^7211dddf95010ff70bf1b2d27505104b8a1767b3
+2b60127b77879b2ce826166687d1ce6bbd181ad2 refs/tags/tcpdump-4.8.0
+9871c5c5bcfde553cfb84b5df58fc89f7a97b792 refs/tags/tcpdump-4.8.0-bp
+bdb28c37f8932a1df15eec48db67075e876f8912 refs/tags/tcpdump-4.8.1
+^af974494da71f2dae8eeac40e1611db5d6a82668
+f16dc4f7a7ca4e0ed5ec98959ff53ac29f75df37 refs/tags/tcpdump-4.9.0
+cae54f4d943f163541dc7a90f7f5b432859955e4 refs/tags/tcpdump-4.9.0-bp
+993a67c8e648bc8b19881e29a60f41273cfbee7b refs/tags/tcpdump-4.9.1
+dda68e7bd631451189152e91e7d3a93d56994a95 refs/tags/tcpdump-4.9.2
+0a27c291d0f9324cfd36b6073fcddff248d0482f refs/tags/tcpdump_3_8_bp
+0a2d6b2d79ad4733cf66dfaae8e250834442048e refs/tags/tcpdump_3_9rel4

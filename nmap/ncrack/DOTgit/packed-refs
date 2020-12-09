@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+0e7c1b166ce91f980cffb05e1dc4d9e4d6f73d7b refs/remotes/origin/0.7
+714f79b154da89d8475bc22aef67b25c0bc1905c refs/remotes/origin/master
+fe1f83a5feab592d8ccff517c6023afa600b9b66 refs/remotes/origin/mongodb_hack
+dc570e7e3cec1fb176c0168eaedc723084bd0426 refs/tags/0.7
+d72ab983c9976544193f7b967745fe2361c61965 refs/tags/v0.5.0
+0adb109559648b70ce0fe316f224f3ba20d1f67b refs/tags/v0.6.0
